@@ -1,0 +1,38 @@
+Definition: What Is Elasticsearch?
+Elasticsearch is a free, open-source search and analytics engine based on the Apache Lucene library. It’s the most popular search engine and has been available since 2010. It’s developed in Java, supporting clients in many different languages, such as PHP, Python, C#, and Ruby.
+
+WHAT DOES ELASTICSEARCH DO?
+Elasticsearch can be used to search all kinds of data. It provides a scalable search solution, has near real-time search and support for multi tenancy. Elasticsearch takes in unstructured data from different locations, stores and indexes it according to user-specified mapping (which can also be derived automatically from data), and makes it searchable.
+
+Its distributed architecture makes it possible to search and analyze huge volumes of data in near real time. It allows you to start with one machine and scale to hundreds. Elasticsearch makes it easy to run a full-featured search cluster, though running it at scale still requires a substantial level of expertise.
+
+Besides full-text search-oriented use cases like product search, document search, email search, etc., Elasticsearch is often used for storing data that needs to be sliced and diced, grouped by various dimensions, and such. Examples of such analytical use cases include the use of Elasticsearch for metrics, logs, traces, and other timeseries data.
+
+BENEFITS: WHY USE ELASTICSEARCH?
+Built with Java, this datastore allows you to run it on any platform. Compared to most NoSQL databases, Elasticsearch is much more focused on the search functionalities, equipped with a rich and powerful HTTP RESTful API that enables you to perform fast searches in near real time.
+
+To fully understand how Elasticsearch can help you and why you may want to use it, we’ve gathered some of its main capabilities:
+
+FULL TEXT SEARCH ENGINE
+Traditional SQL database management systems are not designed for full-text searches against large volumes of data. Because it’s built on top of Lucene, Elasticsearch offers one of the most powerful full-text search capabilities and lets you perform and combine many types of searches, from structured, unstructured, geo, to metric.
+It also have the capabilities of something like "Do you mean" to refine the searches.
+
+ANALYTICAL ENGINE
+The analytical use case is the most popular Elasticsearch use case, even more popular than full text search. Specifically, Elasticsearch is often used for log analytics, slicing and dicing of numerical data such as application and infrastructure performance metrics. Although Apache Solr provided faceting before Elasticsearch was even born, Elasticsearch took faceting to another level, enabling its users to aggregate data on the fly using Elasticsearch’s aggregation queries. These aggregation queries are what powers pretty much all data visualizations you see in tools like Kibana, Grafana, and others.
+
+DISTRIBUTED ARCHITECTURE DESIGNED FOR SCALING
+Elasticsearch was built to scale from the beginning. Its distributed architecture allows you to scale Elasticsearch to a lot of servers and accommodate petabytes of data. As part of our Elasticsearch consulting practice, we’ve seen clusters with hundreds of nodes.
+
+Distributed systems are complex, but Elasticsearch makes many decisions automatically and provides a good management API. Scaling Elasticsearch is, therefore, much easier than with many other systems, though large Elasticsearch clusters come with their set of issues and often require Elasticsearch expertise. Elasticsearch can also replicate data automatically to prevent data loss in case of node failures.
+
+EFFECTIVE INVESTMENT RIGHT OUT OF THE BOX
+Elasticsearch’s mechanics are quite easy to grasp, at least when one is dealing with a relatively small dataset or small deployment. Its simple RESTful APIs work with ingestion tools such as Logstash to send data to Elasticsearch as JSON documents, or Kibana to build reports and visualize your data.
+
+These capabilities along with a short learning curve, allow you to quickly start working on use cases and become more productive.
+
+Beginner's Crash Course to Elastic Stack - Part 1: Intro to Elasticsearch and Kibana: (First 30 mins)
+https://www.youtube.com/watch?v=gS_nHTWZEJ8&list=PL_mJOmq4zsHZYAyK606y7wjQtC0aoE6Es&index=1
+
+Get better understanding on ELK
+Read about Inverted Index how does it works and what is Lucene
+Examples of where ELK should be used by Large Applications are using 
